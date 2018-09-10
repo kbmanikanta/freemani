@@ -11,4 +11,8 @@ export class SignupComponent implements OnInit {
     constructor() {}
 
     ngOnInit() {}
+	
+	onRegisterin(){
+		  localStorage.setItem('onRegisterin', 'true');
+	}
 }
